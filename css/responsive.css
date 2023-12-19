@@ -1,0 +1,124 @@
+@media (max-width:1366px){
+   /* Latest product part css start */
+    .latestProduct{
+        grid-template-columns: 235px 1fr;
+    }
+    /* Latest product part css end */
+}
+
+@media (max-width:1200px){
+
+}
+@media (max-width:992px){
+    .topHeaderSection{
+        display: none;
+     }
+    /* Top header part css start */
+    .topHeaderLeft{
+        display: none;
+    }
+
+    /* shipping part css start */
+    .shippingMain{
+        grid-template-columns: 1fr 1fr;
+        gap:25px;
+    }
+    .shippingItem{
+        display: flex;
+        border-right:none;
+    }
+    .subscribeLeft {
+        border-right: none;
+        text-align: center;
+        padding-bottom: 20px;
+    }
+    .subscribeLeft p {
+        display: none;
+    }
+    .subscribeRight{
+        text-align: center;
+    }
+    .subscribeForm input{
+        margin-bottom: 10px;
+    }
+}
+@media (max-width:768px){
+    /* Latest product part css start */
+    .latestProduct{
+        grid-template-columns: 1fr 1fr;
+    }
+    .latestImg img{
+        height: 100%;
+    }
+    /* Latest product part css end */
+     
+     /* shipping part css start */
+    .shippingMain{
+        grid-template-columns: 1fr;
+        gap:25px;
+        justify-items: center;
+        text-align: center;
+    }
+    .shippingItem{
+        flex-direction: column;
+        gap:6px;
+    }
+    .navbar-brand{
+        padding:5px 15px;
+    }
+    .navbar-brand span{
+        display: none;
+    }
+    .mobileLogo{
+        display: block;
+    }
+    .searchSection{
+        display: none;
+    }
+    .shopCategory span{
+        display: none;
+    }
+    .bannerSection{
+        margin-top:0px;
+    }
+    .navbarBg{
+        background:#394868;
+    }
+    .navbar-light .navbar-toggler {
+        color: #fff;
+        border-color: rgba(255, 255, 255, 1);
+    }
+    .nav-item .nav-link {
+        color: #fff !important;
+    }
+    .shopCategory i {
+        padding-right: 0px;
+    }
+    .navbar-nav{
+        padding:20px 0px;
+    }
+    .bannerText h1{
+        font-size: 24px;
+    }
+    .mySwiperSlider:hover .swiper-button-next {
+        transform: translateX(-20px);
+        -webkit-transform: translateX(-20px);
+        -moz-transform: translateX(-20px);
+        -ms-transform: translateX(-20px);
+        -o-transform: translateX(-20px);
+    }
+    .mySwiperSlider:hover .swiper-button-prev {
+        transform: translateX(20px);
+        -webkit-transform: translateX(20px);
+        -moz-transform: translateX(20px);
+        -ms-transform: translateX(20px);
+        -o-transform: translateX(20px);
+    }
+    .instagramHeader{
+        font-size: 20px;
+    }
+    .shippingMain{
+        margin-top: 0px;
+        background:#fff;
+    }
+}

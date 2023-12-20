@@ -1,3 +1,9 @@
+@media (min-width:992px){
+    .nav-item.dropdown:hover .dropdown-menu{
+        display: block;
+    }
+}
+
 @media (max-width:1366px){
    /* Latest product part css start */
     .latestProduct{

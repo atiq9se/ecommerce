@@ -369,9 +369,7 @@ body{
 .mobileLogo{
     display: none;
 }
-.nav-item.dropdown:hover .dropdown-menu{
-    display: block;
-}
+
 .dropdown-menu {
 	position: absolute;
 	z-index: 1000;

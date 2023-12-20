@@ -128,3 +128,9 @@
         background:#fff;
     }
 }
+
+@media(max-width:420px){
+    .mobileLogo img{
+        width:150px;
+    }
+}
